@@ -1,2 +1,2 @@
 # ws-music-catalog
-Music catalog fromSpotify
+Music catalog from Spotify
