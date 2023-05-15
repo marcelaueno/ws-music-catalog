@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true #para que imprima logs
+  hibernate:
+    ddl-auto: update #actualiza columnas de DB
+  datasource:
+    url: jdbc:mysql://localhost:3306/ws-music-catalog #string de coneccion
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver #ruta de clase que implementa la DB
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false #permite entregar JSON
