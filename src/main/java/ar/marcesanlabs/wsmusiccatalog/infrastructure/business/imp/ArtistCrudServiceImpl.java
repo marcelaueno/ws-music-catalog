@@ -27,7 +27,8 @@ public class ArtistCrudServiceImpl implements ICrudService<Artist, Long> {
 
     @Override
     public List<Artist> getAll() {
-        return  repository.findAll();
+
+        return repository.findAll();
     }
 
     @Override

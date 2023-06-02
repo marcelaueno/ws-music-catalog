@@ -27,7 +27,7 @@ public class AlbumCrudServiceImpl implements ICrudService<Album, Long> {
 
     @Override
     public List<Album> getAll() {
-        return  repository.findAll();
+        return repository.findAll();
     }
 
     @Override

@@ -16,12 +16,16 @@ public class Track {
     private String name;
 
     // muchos tracks hay un albun
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "album_id")
+    @ManyToOne
+    @JoinColumn(name = "album_id", nullable = false)
     private Album album;
 
-    @Column(name = "realese_date")
-    private Date realeseDate;
+    @ManyToOne
+    @JoinColumn(name = "artist_id", nullable = false)
+    private Artist artist;
+
+    @Column(name = "release_date")
+    private Date releaseDate;
 
     @Column(name = "uri")
     private String uri;
@@ -62,13 +66,9 @@ public class Track {
         this.album = album;
     }
 
-    public Date getRealeseDate() {
-        return realeseDate;
-    }
+    public Date getReleaseDate() { return releaseDate; }
 
-    public void setRealeseDate(Date realeseDate) {
-        this.realeseDate = realeseDate;
-    }
+    public void setReleaseDate(Date releaseDate) { this.releaseDate = releaseDate; }
 
     public String getUri() {
         return uri;
@@ -109,4 +109,8 @@ public class Track {
     public void setPopularity(Integer popularity) {
         this.popularity = popularity;
     }
+
+    public Artist getArtist() { return artist; }
+
+    public void setArtist(Artist artist) { this.artist = artist; }
 }
