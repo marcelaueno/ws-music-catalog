@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d049d99-3bfd-4a50-8895-d333129464cb" name="Default Changelist" comment="Entity and Business added">
-      <change afterPath="$PROJECT_DIR$/DB_script/db1_script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sh.exe.stackdump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/controller/AlbumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/controller/ArtistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/controller/TrackController.java" afterDir="false" />
+    <list default="true" id="0d049d99-3bfd-4a50-8895-d333129464cb" name="Default Changelist" comment="CRUD Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/business/imp/AlbumCrudServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/business/imp/AlbumCrudServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/business/imp/ArtistCrudServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/business/imp/ArtistCrudServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684160871179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CRUD Added">
+      <created>1685738507509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685738507509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +152,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="error" />
     <MESSAGE value="Entity and Business added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entity and Business added" />
+    <MESSAGE value="CRUD Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD Added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
