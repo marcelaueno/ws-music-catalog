@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.time.LocalDate;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,7 +12,7 @@ public class TrackDTO {
 
     private Long trackId;
     private String name;
-    private Date releaseDate;
+    private LocalDate releaseDate;
     private String uri;
     private String genres;
     private Integer duration;

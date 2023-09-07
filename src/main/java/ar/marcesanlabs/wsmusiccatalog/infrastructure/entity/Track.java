@@ -1,6 +1,7 @@
 package ar.marcesanlabs.wsmusiccatalog.infrastructure.entity;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -25,7 +26,7 @@ public class Track {
     private Artist artist;
 
     @Column(name = "release_date")
-    private Date releaseDate;
+    private LocalDate releaseDate;
 
     @Column(name = "uri")
     private String uri;
@@ -66,9 +67,9 @@ public class Track {
         this.album = album;
     }
 
-    public Date getReleaseDate() { return releaseDate; }
+    public LocalDate getReleaseDate() { return releaseDate; }
 
-    public void setReleaseDate(Date releaseDate) { this.releaseDate = releaseDate; }
+    public void setReleaseDate(LocalDate releaseDate) { this.releaseDate = releaseDate; }
 
     public String getUri() {
         return uri;

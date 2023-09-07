@@ -1,7 +1,7 @@
 package ar.marcesanlabs.wsmusiccatalog.infrastructure.entity;
 
 import javax.persistence.*;
-import javax.xml.crypto.Data;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -20,7 +20,7 @@ public class Artist {
     private String description;
 
     @Column(name = "date_founded")
-    private Date dateFounded;
+    private LocalDate dateFounded;
 
     @Column(name = "image_url")
     private String imageUrl;
@@ -61,11 +61,11 @@ public class Artist {
         this.description = description;
     }
 
-    public Date getDateFounded() {
+    public LocalDate getDateFounded() {
         return dateFounded;
     }
 
-    public void setDateFounded(Date dateFounded) {
+    public void setDateFounded(LocalDate dateFounded) {
         this.dateFounded = dateFounded;
     }
 

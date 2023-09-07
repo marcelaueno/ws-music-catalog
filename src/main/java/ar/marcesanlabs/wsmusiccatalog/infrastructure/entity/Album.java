@@ -2,6 +2,7 @@ package ar.marcesanlabs.wsmusiccatalog.infrastructure.entity;
 
 import javax.persistence.*;
 import javax.xml.crypto.Data;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -17,7 +18,7 @@ public class Album {
     private String name;
 
     @Column(name = "date")
-    private Date date;
+    private LocalDate date;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "artist_id")
@@ -57,13 +58,6 @@ public class Album {
         this.name = name;
     }
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 
     public Artist getArtist() {
         return artist;
@@ -119,5 +113,13 @@ public class Album {
 
     public void setUrlTracks(String urlTracks) {
         this.urlTracks = urlTracks;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 }

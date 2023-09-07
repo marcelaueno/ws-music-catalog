@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d049d99-3bfd-4a50-8895-d333129464cb" name="Default Changelist" comment="CRUD Added" />
+    <list default="true" id="0d049d99-3bfd-4a50-8895-d333129464cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/AlbumMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/ArtistMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/TrackMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/AlbumDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/AlbumDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/ArtistDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/ArtistDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/TrackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/TrackDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/ArtistMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/ArtistMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +44,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -39,6 +56,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="382e1dfc-21ed-4040-a226-59fad7c5c666" />
+        <option name="url" value="https://github.com/marcelaueno/ws-music-catalog.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +92,7 @@
       <recent name="ar.marcesanlabs.wsmusiccatalog.infrastructure.mapper" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ArtistMapperTest">
     <configuration name="Aplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.wsmusiccatalog.Aplication" />
       <module name="ws-music-catalog" />
@@ -81,6 +106,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArtistMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-music-catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.ArtistMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArtistMapperTest.transformArtistToDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-music-catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.ArtistMapperTest" />
+      <option name="METHOD_NAME" value="transformArtistToDtoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrackMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-music-catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.TrackMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2">
@@ -89,6 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArtistMapperTest" />
+        <item itemvalue="JUnit.TrackMapperTest" />
+        <item itemvalue="JUnit.ArtistMapperTest.transformArtistToDtoTest" />
         <item itemvalue="Application.Aplication" />
       </list>
     </recent_temporary>
@@ -130,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685738507509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CRUD Added">
+      <created>1694091328320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694091328320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

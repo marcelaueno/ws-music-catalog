@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Data
@@ -14,7 +14,7 @@ public class AlbumDTO {
 
     private Long albumId;
     private String name;
-    private Date date;
+    private LocalDate date;
     private String type;
     private String imageUrl;
     private Integer popularity;

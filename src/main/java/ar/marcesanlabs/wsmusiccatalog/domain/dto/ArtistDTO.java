@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Data
@@ -14,7 +15,7 @@ public class ArtistDTO {
     private Long artistId;
     private String name;
     private String description;
-    private Date dateFounded;
+    private LocalDate dateFounded;
     private String imageUrl;
     private String genres;
     private Integer popularity;

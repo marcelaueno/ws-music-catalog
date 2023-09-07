@@ -5,7 +5,7 @@ import ar.marcesanlabs.wsmusiccatalog.infrastructure.entity.Artist;
 
 public class ArtistMapper {
 
-    public static Artist mapToArtist(ArtistDTO artistDTO) {
+    public Artist mapToArtist(ArtistDTO artistDTO) {
         Artist artist = new Artist();
         artist.setArtistId(artistDTO.getArtistId());
         artist.setName(artistDTO.getName());
@@ -19,7 +19,7 @@ public class ArtistMapper {
         return artist;
     }
 
-    public static ArtistDTO mapToArtistDTO(Artist artist) {
+    public ArtistDTO mapToArtistDTO(Artist artist) {
         ArtistDTO artistDTO = new ArtistDTO();
         artistDTO.setArtistId(artist.getArtistId());
         artistDTO.setName(artist.getName());
