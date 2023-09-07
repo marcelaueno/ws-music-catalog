@@ -9,9 +9,6 @@
         <module name="ws-music-catalog" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ws-music-catalog" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
