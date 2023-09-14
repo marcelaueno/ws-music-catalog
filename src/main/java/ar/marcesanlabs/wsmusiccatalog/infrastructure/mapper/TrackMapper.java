@@ -7,7 +7,7 @@ import ar.marcesanlabs.wsmusiccatalog.infrastructure.entity.Track;
 
 public class TrackMapper {
 
-    public static Track mapToTrack(TrackDTO trackDTO) {
+    public Track mapToTrack(TrackDTO trackDTO) {
         Track track = new Track();
         track.setTrackId(trackDTO.getTrackId());
         track.setName(trackDTO.getName());
@@ -22,7 +22,7 @@ public class TrackMapper {
         // se pasa por fuera del mapper album y artista
     }
 
-    public static Track mapToTrack(TrackDTO trackDTO, Artist artist, Album album) {
+    public Track mapToTrack(TrackDTO trackDTO, Artist artist, Album album) {
         Track track = mapToTrack(trackDTO);
         track.setArtist(artist);
         track.setAlbum(album);
@@ -30,7 +30,7 @@ public class TrackMapper {
 
         // se pasa por fuera del mapper album y artista
     }
-    public static TrackDTO mapToTrackDTO(Track track) {
+    public TrackDTO mapToTrackDTO(Track track) {
         TrackDTO trackDTO = new TrackDTO();
         trackDTO.setTrackId(track.getTrackId());
         trackDTO.setName(track.getName());

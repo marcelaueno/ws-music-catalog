@@ -1,17 +1,15 @@
 package ar.marcesanlabs.wsmusiccatalog.infrastructure.mapper;
 
 import ar.marcesanlabs.wsmusiccatalog.domain.dto.AlbumDTO;
-import ar.marcesanlabs.wsmusiccatalog.domain.dto.ArtistDTO;
 import ar.marcesanlabs.wsmusiccatalog.domain.dto.TrackDTO;
 import ar.marcesanlabs.wsmusiccatalog.infrastructure.entity.Album;
 import ar.marcesanlabs.wsmusiccatalog.infrastructure.entity.Artist;
-import ar.marcesanlabs.wsmusiccatalog.infrastructure.entity.Track;
 
 import java.util.List;
 
 public class AlbumMapper {
 
-    public static Album mapToAlbum(AlbumDTO albumDTO) {
+    public Album mapToAlbum(AlbumDTO albumDTO) {
         Album album = new Album();
         album.setAlbumId(albumDTO.getAlbumId());
         album.setName(albumDTO.getName());
@@ -25,13 +23,13 @@ public class AlbumMapper {
         return album;
     }
     //el artista se pasa fuera del mapper
-    public static Album mapToAlbum(AlbumDTO albumDTO, Artist artist) {
+    public Album mapToAlbum(AlbumDTO albumDTO, Artist artist) {
         Album album = mapToAlbum(albumDTO);
         album.setArtist(artist); // artista completo recibe
         return album;
     }
 
-    public static AlbumDTO mapToAlbumDTO(Album album) {
+    public AlbumDTO mapToAlbumDTO(Album album) {
         AlbumDTO albumDTO = new AlbumDTO();
         albumDTO.setAlbumId(album.getAlbumId());
         albumDTO.setName(album.getName());
@@ -44,7 +42,7 @@ public class AlbumMapper {
         return albumDTO;
     }
     // los track se pasan fuera del mapper
-    public static AlbumDTO mapToAlbumDTO(Album album, List<TrackDTO> tracks) {
+    public AlbumDTO mapToAlbumDTO(Album album, List<TrackDTO> tracks) {
         AlbumDTO albumDTO = mapToAlbumDTO(album);
         albumDTO.setTracks(tracks);
         return albumDTO;

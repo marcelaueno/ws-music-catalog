@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0d049d99-3bfd-4a50-8895-d333129464cb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/AlbumMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/ArtistMapperTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/ar/marcesanlabs/test/wsmusiccatalog/infrastructure/mapper/TrackMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/AlbumDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/AlbumDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/ArtistDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/ArtistDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/TrackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/domain/dto/TrackDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/entity/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/ArtistMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/ArtistMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/AlbumMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/AlbumMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/TrackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/marcesanlabs/wsmusiccatalog/infrastructure/mapper/TrackMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +38,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -92,21 +86,8 @@
       <recent name="ar.marcesanlabs.wsmusiccatalog.infrastructure.mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArtistMapperTest">
-    <configuration name="Aplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.wsmusiccatalog.Aplication" />
-      <module name="ws-music-catalog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ar.marcesanlabs.wsmusiccatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArtistMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AlbumMapperTest">
+    <configuration name="AlbumMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ws-music-catalog" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +96,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
-      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.ArtistMapperTest" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.AlbumMapperTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArtistMapperTest.transformArtistToDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlbumMapperTest.transformAlbumToDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ws-music-catalog" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +111,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
-      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.ArtistMapperTest" />
-      <option name="METHOD_NAME" value="transformArtistToDtoTest" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.AlbumMapperTest" />
+      <option name="METHOD_NAME" value="transformAlbumToDtoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumMapperTest.transformDtoToAlbumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-music-catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.AlbumMapperTest" />
+      <option name="METHOD_NAME" value="transformDtoToAlbumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,6 +149,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrackMapperTest.transformTrackToDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-music-catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.TrackMapperTest" />
+      <option name="METHOD_NAME" value="transformTrackToDtoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2">
@@ -160,10 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArtistMapperTest" />
+        <item itemvalue="JUnit.AlbumMapperTest" />
         <item itemvalue="JUnit.TrackMapperTest" />
-        <item itemvalue="JUnit.ArtistMapperTest.transformArtistToDtoTest" />
-        <item itemvalue="Application.Aplication" />
+        <item itemvalue="JUnit.TrackMapperTest.transformTrackToDtoTest" />
+        <item itemvalue="JUnit.AlbumMapperTest.transformDtoToAlbumTest" />
+        <item itemvalue="JUnit.AlbumMapperTest.transformAlbumToDtoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694091328320</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Unit Test Artist">
+      <created>1694118475327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694118475327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,10 +251,16 @@
     <MESSAGE value="error" />
     <MESSAGE value="Entity and Business added" />
     <MESSAGE value="CRUD Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Added" />
+    <MESSAGE value="Added Unit Test Artist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Unit Test Artist" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WsMusicCatalog$AlbumMapperTest_transformDtoToAlbumTest.ic" NAME="AlbumMapperTest.transformDtoToAlbumTest Coverage Results" MODIFIED="1694120466522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ar.marcesanlabs.test.wsmusiccatalog.infrastructure.mapper.*</FILTER>
+    </SUITE>
   </component>
 </project>
